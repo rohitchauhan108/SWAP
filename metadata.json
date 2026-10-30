@@ -1,0 +1,6 @@
+{
+  "name": "SWAP Windows Corp. — Architectural Windows & Glazing Systems",
+  "description": "Wholesale supplier of premium architectural windows, doors, aluminum glazing systems, and glass for commercial and residential glazing contractors and window dealers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
