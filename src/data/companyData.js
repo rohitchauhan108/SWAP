@@ -3,6 +3,13 @@
  * Client PDF is the primary source of truth.
  */
 
+import architecturalGlassDetail from "../assets/images/architectural_glass_detail_1793359235644.jpg";
+import heroArchitecturalFacade from "../assets/images/hero_architectural_facade_1793359234348.jpg";
+import materialsAluminumCurtainwall from "../assets/images/materials_aluminum_curtainwall_1793359235401.jpg";
+import materialsSteelMinimal from "../assets/images/materials_steel_minimal_1793359234398.jpg";
+import materialsWoodGlazing from "../assets/images/materials_wood_glazing_1793359235420.jpg";
+import swapBuildingFacade from "../assets/images/swap_building_facade_1793362746018.jpg";
+
 export const COMPANY_INFO = {
   name: "SWAP Windows Corp.",
   tagline: "A Partnership Built for the Window Trade",
@@ -41,7 +48,7 @@ export const MATERIAL_CATEGORIES = [
     ],
     availabilityNote:
       "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_steel_minimal_1793359234398.jpg",
+    image: materialsSteelMinimal,
     applications: [
       "Luxury Custom Residences",
       "Historic Preservations",
@@ -64,7 +71,7 @@ export const MATERIAL_CATEGORIES = [
     ],
     availabilityNote:
       "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_aluminum_curtainwall_1793359235401.jpg",
+    image: materialsAluminumCurtainwall,
     applications: [
       "Commercial Curtain Walls",
       "Storefronts & Entrances",
@@ -87,7 +94,7 @@ export const MATERIAL_CATEGORIES = [
     ],
     availabilityNote:
       "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_wood_glazing_1793359235420.jpg",
+    image: materialsWoodGlazing,
     applications: [
       "Mountain & Waterfront Estates",
       "Historic Restoration Projects",
@@ -110,7 +117,7 @@ export const MATERIAL_CATEGORIES = [
     ],
     availabilityNote:
       "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/hero_architectural_facade_1793359234348.jpg",
+    image: heroArchitecturalFacade,
     applications: [
       "Multi-Family Residential",
       "Commercial Office Complexes",
@@ -187,7 +194,7 @@ export const GLASS_ONLY_SUPPLY = {
     "Ceramic Frit & Silk-Screen Patterns",
     "Custom Cutouts, Notches & Polished Edges",
   ],
-  image: "/src/assets/images/architectural_glass_detail_1793359235644.jpg",
+  image: architecturalGlassDetail,
 };
 
 export const SERVICES = [
@@ -378,7 +385,7 @@ export const PRODUCTS_CATALOG = [
       "Exceptional air, wind, and water tightness ratings",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_aluminum_curtainwall_1793359235401.jpg",
+    image: materialsAluminumCurtainwall,
     specs: {
       profileDepth: "76 mm frame / 86 mm vent",
       maxGlazing: "55 mm triple glazed",
@@ -403,7 +410,7 @@ export const PRODUCTS_CATALOG = [
       "Narrowest face widths for historic divided lite configurations",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_steel_minimal_1793359234398.jpg",
+    image: materialsSteelMinimal,
     specs: {
       profileDepth: "50 mm - 70 mm",
       maxHeight: "Up to 14 ft openings",
@@ -428,7 +435,7 @@ export const PRODUCTS_CATALOG = [
       "Accommodates oversized insulated double and triple glass units",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/hero_architectural_facade_1793359234348.jpg",
+    image: heroArchitecturalFacade,
     specs: {
       sightline: "50 mm / 60 mm visible mullion width",
       glazingThickness: "28 mm - 64 mm",
@@ -453,7 +460,7 @@ export const PRODUCTS_CATALOG = [
       "Historic simulated divided lites and custom arch geometries",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_wood_glazing_1793359235420.jpg",
+    image: materialsWoodGlazing,
     specs: {
       timberOptions: "White Oak, Pine, Meranti, Larch",
       profileDepth: "68 mm, 78 mm, 92 mm",
@@ -478,7 +485,7 @@ export const PRODUCTS_CATALOG = [
       "CNC polished edges, precision hinge cutouts, and corner notches",
     ],
     availabilityNote: "Manufactured to contractor schedules and project specifications.",
-    image: "/src/assets/images/architectural_glass_detail_1793359235644.jpg",
+    image: architecturalGlassDetail,
     specs: {
       types: "Monolithic Tempered, Laminated, Double/Triple IGU",
       coatings: "Solar Control Low-E, Reflective, Ceramic Frit",
@@ -503,7 +510,7 @@ export const PRODUCTS_CATALOG = [
       "Engineered for high pedestrian cycle durability",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_aluminum_curtainwall_1793359235401.jpg",
+    image: materialsAluminumCurtainwall,
     specs: {
       depth: "1-3/4\" x 4-1/2\" or 2\" x 4-1/2\"",
       doorStiles: "Narrow (2\"), Medium (3-1/2\"), Wide (5\")",
@@ -528,7 +535,7 @@ export const PRODUCTS_CATALOG = [
       "Optional minimalist slim-profile top cap railings",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/hero_architectural_facade_1793359234348.jpg",
+    image: heroArchitecturalFacade,
     specs: {
       loadRating: "Meets 200 lb concentrated load & 50 plf uniform load",
       glassThickness: "1/2\" to 13/16\" laminated tempered",
@@ -552,7 +559,7 @@ export const PRODUCTS_CATALOG = [
       "Integrated electrical switchable smart glass capability",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/architectural_glass_detail_1793359235644.jpg",
+    image: architecturalGlassDetail,
     specs: {
       profileHeight: "25 mm - 35 mm perimeter channel",
       acousticRating: "STC 38 (single) / STC 48 (double)",
@@ -576,7 +583,7 @@ export const PRODUCTS_CATALOG = [
       "Available in dual-color architectural foils and wood grain finishes",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_steel_minimal_1793359234398.jpg",
+    image: materialsSteelMinimal,
     specs: {
       chambers: "6 to 7 thermal chambers",
       frameDepth: "70 mm - 85 mm",
@@ -601,7 +608,7 @@ export const PRODUCTS_CATALOG = [
       "Superior wind and driving rain resistance",
     ],
     availabilityNote: "Supplied as aluminum systems. Standard sliding windows and doors may also be available in other materials.",
-    image: "/src/assets/images/materials_wood_glazing_1793359235420.jpg",
+    image: materialsWoodGlazing,
     specs: {
       panelWeight: "Up to 400 kg (880 lbs) per panel",
       interlockSightline: "Narrow 20 mm - 30 mm interlock",
@@ -626,7 +633,7 @@ export const PRODUCTS_CATALOG = [
       "Dual and triple compression weather seals",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_steel_minimal_1793359234398.jpg",
+    image: materialsSteelMinimal,
     specs: {
       operation: "Tilt & Turn, Casement, Awning, Fixed",
       airTightness: "Class 4 (EN 12207)",
@@ -651,7 +658,7 @@ export const PRODUCTS_CATALOG = [
       "Compatible with structural corner glass without corner posts",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/hero_architectural_facade_1793359234348.jpg",
+    image: heroArchitecturalFacade,
     specs: {
       span: "Continuous spans up to 60+ feet",
       cornerGlazing: "All-glass silicone stepped corners",
@@ -675,7 +682,7 @@ export const PRODUCTS_CATALOG = [
       "Custom bent insulated glass units with warm-edge spacers",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_wood_glazing_1793359235420.jpg",
+    image: materialsWoodGlazing,
     specs: {
       archTypes: "Half-Round, Segmental, Eyebrow, Gothic, Elliptical",
       materials: "Laminated White Oak, Pine, Steel, Aluminum",
@@ -699,7 +706,7 @@ export const PRODUCTS_CATALOG = [
       "Superior thermal insulation without individual small leaky glass panes",
     ],
     availabilityNote: "Product availability is determined by the selected system and project requirements.",
-    image: "/src/assets/images/materials_steel_minimal_1793359234398.jpg",
+    image: materialsSteelMinimal,
     specs: {
       grilleWidths: "5/8\", 7/8\", 1-1/8\", or custom profile",
       muntinProfiles: "Ogee, Putty, Square, Trapezoidal",
@@ -719,7 +726,7 @@ export const PROJECTS_GALLERY = [
     glass: "Guardian SunGuard High Performance Low-E Triple Glazed",
     description:
       "Floor-to-ceiling panoramic glass pavilion with razor-thin structural profiles and custom sliding corner units. Wholesale supplied and delivered on-site with complete shop drawings.",
-    image: "/src/assets/images/hero_architectural_facade_1793359234348.jpg",
+    image: heroArchitecturalFacade,
     specs: "3,400 sq.ft Glazing Area · 12ft Panel Heights · USA & European Tested",
   },
   {
@@ -732,7 +739,7 @@ export const PROJECTS_GALLERY = [
     glass: "Saint-Gobain Low-Iron Double Insulated Glass",
     description:
       "Custom Swiss steel fenestration with ultra-narrow sightlines, bespoke hardware, and thermal-break engineering for cold-climate performance.",
-    image: "/src/assets/images/materials_steel_minimal_1793359234398.jpg",
+    image: materialsSteelMinimal,
     specs: "Forster Steel Profiles · Simulated Divided Lites · Multi-Point Locking",
   },
   {
@@ -745,7 +752,7 @@ export const PROJECTS_GALLERY = [
     glass: "Saint-Gobain Acoustic Laminated IGU",
     description:
       "Multi-story ground floor entrance with integrated balanced doors, structural corner glazing, and heavy-duty commercial mullions.",
-    image: "/src/assets/images/materials_aluminum_curtainwall_1793359235401.jpg",
+    image: materialsAluminumCurtainwall,
     specs: "Reynaers SL38 & Curtain Wall · AAMA 2605 Finish · Job-Site Delivery",
   },
   {
@@ -758,7 +765,7 @@ export const PROJECTS_GALLERY = [
     glass: "Triple Pane Krypton-Filled Low-E Glass",
     description:
       "Monumental timber pivot windows framing expansive mountain views, engineered with multi-layer oak joinery and high thermal retention.",
-    image: "/src/assets/images/materials_wood_glazing_1793359235420.jpg",
+    image: materialsWoodGlazing,
     specs: "European White Oak · Passive House Thermal Standard · Custom Hardware",
   },
   {
@@ -771,7 +778,7 @@ export const PROJECTS_GALLERY = [
     glass: "13/16\" Low-Iron Laminated Structural Glass Panels",
     description:
       "Precision cut glass-only supply without frames for museum-quality interior partitions, polished edge balustrades, and conference enclosures.",
-    image: "/src/assets/images/architectural_glass_detail_1793359235644.jpg",
+    image: architecturalGlassDetail,
     specs: "Glass-Only Supply · Polished CNC Edges · SentryGlas Structural Interlayer",
   },
 ];

@@ -7,6 +7,7 @@ import {
   Building2
 } from 'lucide-react';
 import { COMPANY_INFO } from '../data/companyData.js';
+import swapBuildingFacade from '../assets/images/swap_building_facade_1793362746018.jpg';
 
 export default function SWAPHeroSection({ onNavigate, onOpenQuote }) {
 
@@ -27,7 +28,7 @@ export default function SWAPHeroSection({ onNavigate, onOpenQuote }) {
         {/* Real Architectural Building Facade Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/swap_building_facade_1793362746018.jpg"
+            src={swapBuildingFacade}
             alt="SWAP Windows Corp. - Architectural Building Facade with Steel, Wood, Aluminum, and PVC Fenestration"
             className="w-full h-full object-cover object-center brightness-90 contrast-[1.05] transition-transform duration-1000 scale-100 hover:scale-[1.02]"
           />

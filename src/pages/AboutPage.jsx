@@ -12,6 +12,8 @@ import {
   Sparkles
 } from 'lucide-react';
 import { COMPANY_INFO, SERVICES, MATERIAL_CATEGORIES, WHY_WORK_WITH_SWAP, BRANDS } from '../data/companyData.js';
+import heroArchitecturalFacade from '../assets/images/hero_architectural_facade_1793359234348.jpg';
+import materialsAluminumCurtainwall from '../assets/images/materials_aluminum_curtainwall_1793359235401.jpg';
 
 export default function AboutPage({ onNavigate, onOpenQuote }) {
   return (
@@ -39,7 +41,7 @@ export default function AboutPage({ onNavigate, onOpenQuote }) {
             <div className="lg:col-span-8 relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl border border-slate-200 aspect-[16/10] bg-slate-100">
                 <img
-                  src="/src/assets/images/hero_architectural_facade_1793359234348.jpg"
+                  src={heroArchitecturalFacade}
                   alt="Modern architectural glazing pavilion"
                   className="w-full h-full object-cover"
                 />
@@ -206,7 +208,7 @@ export default function AboutPage({ onNavigate, onOpenQuote }) {
             <div className="lg:col-span-6">
               <div className="rounded-2xl overflow-hidden shadow-xl border border-slate-200 aspect-[4/3]">
                 <img
-                  src="/src/assets/images/materials_aluminum_curtainwall_1793359235401.jpg"
+                  src={materialsAluminumCurtainwall}
                   alt="Job-site commercial installation of architectural glazing"
                   className="w-full h-full object-cover"
                 />

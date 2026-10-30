@@ -12,6 +12,10 @@ import {
   Eye
 } from 'lucide-react';
 import { COMPANY_INFO } from '../data/companyData.js';
+import materialsAluminumCurtainwall from '../assets/images/materials_aluminum_curtainwall_1793359235401.jpg';
+import materialsSteelMinimal from '../assets/images/materials_steel_minimal_1793359234398.jpg';
+import materialsWoodGlazing from '../assets/images/materials_wood_glazing_1793359235420.jpg';
+import heroArchitecturalFacade from '../assets/images/hero_architectural_facade_1793359234348.jpg';
 
 const HERO_MATERIALS = {
   aluminum: {
@@ -20,7 +24,7 @@ const HERO_MATERIALS = {
     title: 'Reynaers SL38 Slim-Profile System',
     category: 'Architectural Aluminum Fenestration',
     description: 'Ultra-slim 38mm visible sightline with steel-look aesthetics and superior multi-chamber thermal breaks.',
-    image: '/src/assets/images/materials_aluminum_curtainwall_1793359235401.jpg',
+    image: materialsAluminumCurtainwall,
     frameColor: '#1e242b',
     borderHue: 'border-slate-700/80',
     accentColor: '#C59A45',
@@ -38,7 +42,7 @@ const HERO_MATERIALS = {
     title: 'Forster Swiss Steel Windows & Doors',
     category: 'Monumental Steel Fenestration',
     description: 'Slender Swiss steel mullions delivering monumental structural load capacity and historic French divided-lites.',
-    image: '/src/assets/images/materials_steel_minimal_1793359234398.jpg',
+    image: materialsSteelMinimal,
     frameColor: '#12151a',
     borderHue: 'border-slate-800',
     accentColor: '#E6C687',
@@ -56,7 +60,7 @@ const HERO_MATERIALS = {
     title: 'Laminated European White Oak System',
     category: 'Engineered Timber Fenestration',
     description: 'Engineered 4-layer solid laminated timber providing master European joinery, acoustic warmth, and heritage luxury.',
-    image: '/src/assets/images/materials_wood_glazing_1793359235420.jpg',
+    image: materialsWoodGlazing,
     frameColor: '#6e4b2d',
     borderHue: 'border-amber-900/60',
     accentColor: '#D4AF37',
@@ -74,7 +78,7 @@ const HERO_MATERIALS = {
     title: 'Multi-Chamber uPVC Performance Windows',
     category: 'High-Efficiency Multi-Chamber uPVC',
     description: 'Engineered multi-chamber chambers reinforced with galvanized steel inserts for maximum thermal retention.',
-    image: '/src/assets/images/hero_architectural_facade_1793359234348.jpg',
+    image: heroArchitecturalFacade,
     frameColor: '#282d37',
     borderHue: 'border-slate-700',
     accentColor: '#C59A45',

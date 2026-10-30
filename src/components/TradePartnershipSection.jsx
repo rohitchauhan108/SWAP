@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { COMPANY_INFO } from '../data/companyData.js';
+import heroArchitecturalFacade from '../assets/images/hero_architectural_facade_1793359234348.jpg';
 
 export default function TradePartnershipSection({ onNavigate, onOpenQuote }) {
   return (
@@ -69,7 +70,7 @@ export default function TradePartnershipSection({ onNavigate, onOpenQuote }) {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 aspect-[4/5] bg-slate-100">
               <img
-                src="/src/assets/images/hero_architectural_facade_1793359234348.jpg"
+                src={heroArchitecturalFacade}
                 alt="Modern architectural glass facade with slim aluminum windows"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />

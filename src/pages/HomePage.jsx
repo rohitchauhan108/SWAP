@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import SWAPHeroSection from '../components/SWAPHeroSection.jsx';
 import TradePartnershipSection from '../components/TradePartnershipSection.jsx';
+import materialsSteelMinimal from '../assets/images/materials_steel_minimal_1793359234398.jpg';
 import {
   COMPANY_INFO,
   MATERIAL_CATEGORIES,
@@ -46,7 +47,7 @@ export default function HomePage({ onNavigate, onOpenQuote, onSelectProduct }) {
             <div className="lg:col-span-5 relative">
               <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200 aspect-[4/3]">
                 <img
-                  src="/src/assets/images/materials_steel_minimal_1793359234398.jpg"
+                  src={materialsSteelMinimal}
                   alt="Craftsmanship in architectural steel fenestration"
                   className="w-full h-full object-cover"
                 />
